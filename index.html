@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="author" content="Iulia-Georgiana Luca">
+   <meta name="description" content="The web page for the festival ANIMA">
+   <meta name="keywords" content="festival, electronic music, bands, #music, #ANIMA">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ANIMA</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Jost:wght@100&family=Prata&display=swap"
+      rel="stylesheet">
+
+   <style>
+      body {
+         background-color: black;
+      }
+
+      hr.rounded {
+         margin: 70px 60px 20px 60px;
+         border-top: 8px solid #ffffff;
+         border-radius: 20px;
+      }
+
+      nav ul {
+         font-family: "Jost", sans-serif;
+         font-weight: bold;
+         font-size: 154%;
+      }
+
+      .carousel-caption h3 {
+         background-color: black;
+         opacity: 0.4;
+         text-align: center;
+         font-size: 210%;
+      }
+
+      .carousel-caption h2 {
+         background-color: black;
+         opacity: 0.4;
+         font-size: 210%;
+      }
+
+      section {
+         font-family: "Jost", sans-serif;
+         font-size: 170%;
+         font-weight: bold;
+      }
+
+      h2 {
+         font-family: "Jost", sans-serif;
+         font-size: 60px;
+         font-weight: bold;
+      }
+
+      h3 {
+         font-family: "Jost", sans-serif;
+         font-size: 40px;
+         font-weight: bold;
+      }
+
+      .card {
+         background-color: #333333;
+      }
+
+      .card-text stage {
+         font-family: "Jost", sans-serif;
+         font-size: 20px;
+         font-weight: bold;
+      }
+
+      footer {
+         font-family: "Jost", sans-serif;
+         font-size: 27px;
+         font-weight: bold;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <nav class="navbar navbar-expand-xl navbar-dark">
+      <div class="container-fluid">
+         <a class="navbar-brand" href="index.html">
+            <img class="pb-3" src="imgtema3/a.png" alt="letter a icon">
+            <span class="navbar-text display-2 px-5 py-2 text-white">ANIMA</span>
+         </a>
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsiblenavbar">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="collapsiblenavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#ourstory"> Story </a>
+               </li>
+
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#ourmusic"> Music </a>
+               </li>
+
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#tickets"> Tickets </a>
+               </li>
+
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#stages"> Stages </a>
+               </li>
+
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#geninfo"> General </a>
+               </li>
+
+               <li class="nav-item px-4">
+                  <a class="nav-link" href="#contact"> Contact </a>
+               </li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <header id="caruselheader" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+         <button type="button" data-bs-target="#caruselheader" data-bs-slide-to="0" class="active"></button>
+         <button type="button" data-bs-target="#caruselheader" data-bs-slide-to="1"></button>
+         <button type="button" data-bs-target="#caruselheader" data-bs-slide-to="2"></button>
+         <button type="button" data-bs-target="#caruselheader" data-bs-slide-to="3"></button>
+         <button type="button" data-bs-target="#caruselheader" data-bs-slide-to="4"></button>
+      </div>
+
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="imgtema3/audience2.jpg" alt="huge gathering of people dancing and cheering at a music festival"
+               class="d-block w-100">
+         </div>
+         <div class="carousel-caption d-none d-md-block">
+            <h2>7-9 July 2022</h2>
+            <h3>Berlin. Bradenburg Gate.</h3>
+         </div>
+
+         <div class="carousel-item">
+            <img src="imgtema3/audience1.jpg" alt="huge gathering of people dancing and cheering at a music festival"
+               class="d-block w-100">
+         </div>
+         <div class="carousel-caption d-none d-md-block">
+            <h2>7-9 July 2022</h2>
+            <h3>Berlin. Bradenburg Gate.</h3>
+         </div>
+
+         <div class="carousel-item">
+            <img src="imgtema3/audience0.jpg" alt="huge gathering of people dancing and cheering at a music festival"
+               class="d-block w-100">
+         </div>
+         <div class="carousel-caption d-none d-md-block">
+            <h2>7-9 July 2022</h2>
+            <h3>Berlin. Bradenburg Gate.</h3>
+         </div>
+
+         <div class="carousel-item">
+            <img src="imgtema3/audience3.jpg" alt="huge gathering of people dancing and cheering at a music festival"
+               class="d-block w-100">
+         </div>
+         <div class="carousel-caption d-none d-md-block">
+            <h2>7-9 July 2022</h2>
+            <h3>Berlin. Bradenburg Gate.</h3>
+         </div>
+
+         <div class="carousel-item">
+            <img src="imgtema3/audience4.jpg" alt="huge gathering of people dancing and cheering at a music festival"
+               class="d-block w-100">
+         </div>
+         <div class="carousel-caption d-none d-md-block">
+            <h2>7-9 July 2022</h2>
+            <h3>Berlin. Bradenburg Gate.</h3>
+         </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#caruselheader" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#caruselheader" data-bs-slide="next">
+         <span class="carousel-control-next-icon"></span>
+      </button>
+   </header>
+
+   <hr class="rounded">
+
+   <section class="container-fluid" id="ourstory">
+      <h2 class="text-white py-5 text-center"> Our story </h2>
+      <p class="text-white pt-3 px-5">The idea of Anima festival first became the real experience in the year of 2017.
+         Its creators concieved it as an affair meant to offer young souls the escape and connection they seek. Bringing
+         people together, uniting minds, ears and eyes through the power of dance and music, the three stages placed in
+         the wonderful setting of Bradenburg Gate in Berlin promise to awake even the numbest of hearts. Having won
+         numerous awards over the years, our festival is considered to be more than an experience, more than a feeling.
+         It is all about music, people and sensations.</p>
+      <p class="text-white px-5">Join us and together we will live the greatest of journeys, writing a magical story.
+      </p>
+      <p class="text-white px-5">See you in Berlin, in 2022.</p>
+   </section>
+
+   <hr class="rounded">
+
+   <section class="container-fluid" id="ourmusic">
+      <div class="row px-5">
+         <div class="col-sm-12 col-md-6">
+            <h2 class="text-white py-5 text-center"> Our music </h2>
+            <p class="text-white"> The concept of the festival was created around the idea of feeling music at its
+               utmost intensity. Our high-quality speakers will ensure an experience like no other.</p>
+            <p class="text-white">"Volume feelings"</p>
+            <p class="text-white">The main genres you will encounter will be:</p>
+
+
+            <ul class=" text-white list-unstyled">
+               <li>electronic music</li>
+               <li>house music</li>
+               <li>dance music</li>
+            </ul>
+         </div>
+
+         <div class="musicimg col-sm-12 col-md-6">
+            <img class="img-fluid py-5" src="imgtema3/artist-dj.jpg">
+         </div>
+
+   </section>
+
+
+   <hr class="rounded">
+
+
+   <section class="container-fluid" id="tickets">
+      <h2 class="text-white py-5 text-center"> Tickets </h2>
+      <div class="row">
+
+         <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white mt-3 mx-5">
+               <h3 class="card-title">One-day ticket</h3>
+               <p class="card-text">It includes full access to all the three stages, in any of the days of the festival.
+               </p>
+               <p class="card-text"> Buy now for 20 euros </p>
+            </div>
+         </div>
+
+         <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white mt-3 mx-5">
+               <h3 class="card-title">Two-day ticket</h3>
+               <p class="card-text">It includes full access to all the three stages, for just two days of the festival.
+               </p>
+               <p class="card-text"> Buy now for 40 euros </p>
+            </div>
+         </div>
+
+         <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center text-white mt-3 mx-5">
+               <h3 class="card-title">The ticket</h3>
+               <p class="card-text">Our full-access ticket. It includes entrance to the four stages and a free drink.
+               </p>
+               <p class="card-text"> Buy now for 50 euros </p>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <hr class="rounded">
+
+   <section class="container-fluid" id="stages">
+      <h2 class="text-white py-5 text-center"> Stages </h2>
+
+      <div class="row">
+
+         <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center text-white mt-5 mx-3">
+               <div class="card-body">
+                  <h3 class="card-title">Touch</h3>
+                  <p class="card-text stage">Experience the power of touch with the help of the most well known bands in
+                     the field of electric music: Purely Red, Les Hearts, Light Division.</p>
+                  <img class="card-img-bottom" src="imgtema3/artist-band1.jpg">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center text-white mt-5 mx-3">
+               <div class="card-body">
+                  <h3 class="card-title">Feel</h3>
+                  <p class="card-text stage">Allow feelings to rise and moments to bloom while listening to the
+                     wonderful tracks of James Joyce, The Deaf Lion and Octavius the First.</p>
+                  <img class="card-img-bottom" src="imgtema3/artist-dj1.jpg">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center text-white mt-5 mx-3">
+               <div class="card-body">
+                  <h3 class="card-title">Hear</h3>
+                  <p class="card-text stage">The stage that is all about the fantasy sound, connection between the
+                     senses and minds. The artists playing: Silviq, Red Masters and Allan DeBoife.</p>
+                  <img class="card-img-bottom" src="imgtema3/artist-band.jpg">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center text-white mt-5 mx-3">
+               <div class="card-body">
+                  <h3 class="card-title">See</h3>
+                  <p class="card-text stage">Visual projections, sounds and live animations. Let the two senses fusion
+                     and live a unique experience with the help of: Seven P's and Charming Skin.</p>
+                  <img class="card-img-bottom" src="imgtema3/artist-dj2.jpg">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <hr class="rounded">
+
+
+   <section class="container-fluid" id="geninfo">
+      <h2 class="text-white py-5 text-center"> General information </h2>
+      <p class="text-white pt-3 px-5"> Opening times: 8 P.M. and all night long</p>
+      <p class="text-white px-5">Access based on ID/Passaport and green certificate</p>
+      <p class="text-white px-5">Only for adults (18+)</p>
+      <p class="text-white px-5">Dress code: wear something phosphorescent</p>
+   </section>
+
+   <hr class="rounded">
+
+   <footer class="container-fluid text-white" id="contact">
+      <div class="row">
+         <div class="col-md-6 p-5 text-center">
+            <h2 class="text-white pb-5 text-center">Contact</h2>
+            <p>Email adress: contact@animafestival.com</p>
+            <p>Adress: Rathausstraße 11f, Berlin, Deutschland </p>
+            <p>Phone number: 00 49 135 08953205</p>
+            <p>Copyright © 2021 Luca Iulia-Georgiana</p>
+         </div>
+
+         <div class="col-md-6 pt-5 pb-5">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.800572671766!2d13.40663441578925!3d52.518948079813974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e204450bc9d%3A0x80ae132859a94049!2sRathausstra%C3%9Fe%2C%2010178%20Berlin%2C%20Germania!5e0!3m2!1sro!2sro!4v1638721805094!5m2!1sro!2sro"
+               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+
+      </div>
+
+   </footer>
+
+</body>
+
+</html>
